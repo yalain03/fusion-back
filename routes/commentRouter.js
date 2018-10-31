@@ -5,7 +5,6 @@ var authenticate = require('../authenticate');
 const cors = require('./cors');
 
 const Comments = require('../models/comments');
-const Dishes = require('../models/dishes');
 
 const commentRouter = express.Router();
 
