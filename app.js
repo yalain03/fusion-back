@@ -79,4 +79,12 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+var port = process.env.PORT || 5000;
+
+// when deploying, uncomment this
+
+// app.listen(port, function() {
+//   console.log('Server started');
+// });
+
 module.exports = app;
